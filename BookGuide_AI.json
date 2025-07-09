@@ -1,0 +1,2958 @@
+{
+  "intents": [
+    {
+      "intent": "Author_Search",
+      "examples": [
+        {
+          "text": " Amish Tripathi"
+        },
+        {
+          "text": "Any novels by Colleen Hoover?"
+        },
+        {
+          "text": "author recommendation"
+        },
+        {
+          "text": "I love books by Dan Brown"
+        },
+        {
+          "text": "rk narayan"
+        },
+        {
+          "text": "Show me something by Agatha Christie"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Genre",
+      "examples": [
+        {
+          "text": "Adventure"
+        },
+        {
+          "text": "Art & Design"
+        },
+        {
+          "text": "Autobiography"
+        },
+        {
+          "text": "Biography / Memoir"
+        },
+        {
+          "text": "Business / Economics"
+        },
+        {
+          "text": "Children�s Books"
+        },
+        {
+          "text": "Contemporary Romance"
+        },
+        {
+          "text": "Cooking / Food"
+        },
+        {
+          "text": "Cozy Mystery"
+        },
+        {
+          "text": "Crime Fiction"
+        },
+        {
+          "text": "Cyberpunk"
+        },
+        {
+          "text": "Dark Fantasy"
+        },
+        {
+          "text": "Detective"
+        },
+        {
+          "text": "Drama"
+        },
+        {
+          "text": "Dystopian"
+        },
+        {
+          "text": "Epic / High Fantasy"
+        },
+        {
+          "text": "Fantasy"
+        },
+        {
+          "text": "Gothic Horror"
+        },
+        {
+          "text": "Health & Fitness"
+        },
+        {
+          "text": "Historical Fiction"
+        },
+        {
+          "text": "Historical Romance"
+        },
+        {
+          "text": "History"
+        },
+        {
+          "text": "Horror"
+        },
+        {
+          "text": "Legal Thriller"
+        },
+        {
+          "text": "LGBTQ+ Romance"
+        },
+        {
+          "text": "Literary Fiction"
+        },
+        {
+          "text": "Magical Realism"
+        },
+        {
+          "text": "Middle Grade Fiction"
+        },
+        {
+          "text": "Mystery"
+        },
+        {
+          "text": "Non-Fiction Genres"
+        },
+        {
+          "text": "Philosophy"
+        },
+        {
+          "text": "Psychological Fiction"
+        },
+        {
+          "text": "Psychological Thriller"
+        },
+        {
+          "text": "Psychology"
+        },
+        {
+          "text": "Romance"
+        },
+        {
+          "text": "Romantic Suspense"
+        },
+        {
+          "text": "Science Fiction"
+        },
+        {
+          "text": "Science & Technology"
+        },
+        {
+          "text": "Self-Help / Personal Development"
+        },
+        {
+          "text": "Space Opera"
+        },
+        {
+          "text": "Supernatural"
+        },
+        {
+          "text": "Techno-thriller"
+        },
+        {
+          "text": "Thriller"
+        },
+        {
+          "text": "Travel"
+        },
+        {
+          "text": "Urban Fantasy"
+        },
+        {
+          "text": "Young Readers"
+        }
+      ]
+    },
+    {
+      "intent": "Goodbye",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "catch you later"
+        },
+        {
+          "text": "goodbye"
+        },
+        {
+          "text": "I’ll come back later"
+        },
+        {
+          "text": "ok bye"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "see you later"
+        },
+        {
+          "text": "talk to you soon"
+        },
+        {
+          "text": "thanks, that’s all"
+        },
+        {
+          "text": "thank you, bye"
+        },
+        {
+          "text": "that’s it for now"
+        },
+        {
+          "text": "we’ll chat again"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "Hey BookBot"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "namaste"
+        },
+        {
+          "text": "What's up"
+        }
+      ],
+      "description": "greetings"
+    },
+    {
+      "intent": "Mood",
+      "examples": [
+        {
+          "text": "angry"
+        },
+        {
+          "text": "anxious"
+        },
+        {
+          "text": "bored"
+        },
+        {
+          "text": "calm"
+        },
+        {
+          "text": "confused"
+        },
+        {
+          "text": "curious"
+        },
+        {
+          "text": "excited"
+        },
+        {
+          "text": "happy"
+        },
+        {
+          "text": "hopeful"
+        },
+        {
+          "text": "inspired"
+        },
+        {
+          "text": "lazy"
+        },
+        {
+          "text": "lonely"
+        },
+        {
+          "text": "motivated"
+        },
+        {
+          "text": "nostalgic"
+        },
+        {
+          "text": "overwhelmed"
+        },
+        {
+          "text": "peaceful"
+        },
+        {
+          "text": "romantic"
+        },
+        {
+          "text": "sad"
+        },
+        {
+          "text": "stressed"
+        },
+        {
+          "text": "tired"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Need_help_deciding",
+      "examples": [
+        {
+          "text": "choose for me"
+        },
+        {
+          "text": "don't know what to read"
+        },
+        {
+          "text": "explore genres"
+        },
+        {
+          "text": "first time reader"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Reading_Level",
+      "examples": [
+        {
+          "text": "adult"
+        },
+        {
+          "text": "advanced"
+        },
+        {
+          "text": "beginner"
+        },
+        {
+          "text": "casual"
+        },
+        {
+          "text": "expert"
+        },
+        {
+          "text": "intermediate"
+        },
+        {
+          "text": "lengthy"
+        },
+        {
+          "text": "quick read"
+        },
+        {
+          "text": "teen"
+        },
+        {
+          "text": "young reader"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "author_entity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Agatha Christie",
+          "synonyms": [
+            "agatha,christie"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Amish Tripathi",
+          "synonyms": [
+            "amish,tripathi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Arundhati Roy",
+          "synonyms": [
+            "arundhati,roy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Charles Dickens",
+          "synonyms": [
+            "dickens,charles"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chetan Bhagat",
+          "synonyms": [
+            "chetan,bhagat"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dan Brown",
+          "synonyms": [
+            "brown,daniel brown"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ernest Hemingway",
+          "synonyms": [
+            "hemingway,ernest"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "George R.R. Martin",
+          "synonyms": [
+            "george martin, grrm"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jane Austen",
+          "synonyms": [
+            "austen,jane"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "J.K. Rowling",
+          "synonyms": [
+            "narayan, rk narayan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "J.R.R. Tolkien",
+          "synonyms": [
+            "tolkien,jrr tolkien"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Khaled Hosseini",
+          "synonyms": [
+            "hosseini,khaled"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Leo Tolstoy",
+          "synonyms": [
+            "tolstoy,leo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mark Twain",
+          "synonyms": [
+            "twain,mark"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Paulo Coelho",
+          "synonyms": [
+            "coelho,paulo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rabindranath Tagore",
+          "synonyms": [
+            "tagore,rabindra"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "R.K. Narayan",
+          "synonyms": [
+            "naraya,rk narayan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ruskin Bond",
+          "synonyms": [
+            "bond,ruskin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Stephen King",
+          "synonyms": [
+            "king,stephen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "William Shakespeare",
+          "synonyms": [
+            "shakespeare,william"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "genre_entity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "adventure",
+          "synonyms": [
+            "action, exploration, quest, survival"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "art & design",
+          "synonyms": [
+            "visual art, creativity, graphic design, aesthetics"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "autobiography",
+          "synonyms": [
+            "self-written life story, memoir by self"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "biography",
+          "synonyms": [
+            "life story, bio, personal story, real-life account"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "business",
+          "synonyms": [
+            "management, entrepreneurship, startup, economics"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "children�s books",
+          "synonyms": [
+            "kids books, picture books, early readers"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cooking",
+          "synonyms": [
+            "recipe, cookbook, culinary, food writing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "drama",
+          "synonyms": [
+            "emotional story, realistic fiction, intense fiction"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fantasy",
+          "synonyms": [
+            "epic fantasy, high fantasy, magic, dragons, urban fantasy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "health & fitness",
+          "synonyms": [
+            "wellness, exercise, diet, healthy living"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "historical fiction",
+          "synonyms": [
+            "historical novel, past era, period fiction"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "history",
+          "synonyms": [
+            "historical, world history, past events"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "horror",
+          "synonyms": [
+            "scary, ghost stories, supernatural, gothic horror"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "literary fiction",
+          "synonyms": [
+            "lit fic, contemporary fiction, serious fiction"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "magical realism",
+          "synonyms": [
+            "surreal, whimsical realism, dreamlike stories"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "memoir",
+          "synonyms": [
+            "life experiences, personal memoir, reflective writing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "middle grade",
+          "synonyms": [
+            "tweens, 9-12 age group, middle school fiction"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mystery",
+          "synonyms": [
+            "detective, crime, whodunit, sleuth, murder mystery"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "philosophy",
+          "synonyms": [
+            "philosophical, ethics, logic, reasoning"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "psychological fiction",
+          "synonyms": [
+            "mind games, deep character, introspective fiction"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "psychology",
+          "synonyms": [
+            "mental health, behavior, mind science"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "romance",
+          "synonyms": [
+            "love story, romantic fiction, romantic comedy, chick lit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "science",
+          "synonyms": [
+            "popular science, scientific, STEM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "science fiction",
+          "synonyms": [
+            "sci-fi, space fiction, futuristic, cyberpunk, dystopian"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "self-help",
+          "synonyms": [
+            "personal development, motivation, productivity, self improvement"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "thriller",
+          "synonyms": [
+            "suspense, psychological thriller, crime thriller, legal thriller"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "travel",
+          "synonyms": [
+            "travelogue, journey, world travel"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "mood_entity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "angry",
+          "synonyms": [
+            "mad, furious, irritated"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "anxious",
+          "synonyms": [
+            "worried, uneasy, scared"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bored",
+          "synonyms": [
+            "uninterested, dull, nothing to do"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "calm",
+          "synonyms": [
+            "relaxed, at ease, chill"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "confused",
+          "synonyms": [
+            "lost, unclear, puzzled"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "curious",
+          "synonyms": [
+            "inquisitive, questioning, exploring"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "excited",
+          "synonyms": [
+            "thrilled, pumped, energetic"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "happy",
+          "synonyms": [
+            "joyful, cheerful, good mood"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hopeful",
+          "synonyms": [
+            "optimistic, positive, confident"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "inspired",
+          "synonyms": [
+            "creative, enthusiastic, awakened"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lazy",
+          "synonyms": [
+            "lazy, sluggish, idle"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lonely",
+          "synonyms": [
+            "alone, isolated, distant"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "motivated",
+          "synonyms": [
+            "driven, eager, ambitious"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nostalgic",
+          "synonyms": [
+            "sentimental, reminiscent, reflective"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "overwhelmed",
+          "synonyms": [
+            "burned out, stressed out, swamped"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "peaceful",
+          "synonyms": [
+            "serene, relaxed, content"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "romantic",
+          "synonyms": [
+            "in love, flirty, affectionate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sad",
+          "synonyms": [
+            "down, upset, depressed"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "stressed",
+          "synonyms": [
+            "tense, nervous, pressured"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tired",
+          "synonyms": [
+            "sleepy, drained, exhausted"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "need_help_deciding_entity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "anything works",
+          "synonyms": [
+            "whatever, anything, no preference"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "can't decide",
+          "synonyms": [
+            "undecided, uncertain, hesitating"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "can't decide,",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "choose for me",
+          "synonyms": [
+            "you pick, up to you, suggest something"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "don't know what to read",
+          "synonyms": [
+            "blank, lost, need ideas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "explore genres",
+          "synonyms": [
+            "browse, explore, see options"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "first time reader",
+          "synonyms": [
+            "newbie, first book, getting started"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "need help",
+          "synonyms": [
+            "confused, don't know, not sure"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "not picky",
+          "synonyms": [
+            "open, flexible, okay with all"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "recommend",
+          "synonyms": [
+            "recommend me, suggest, choose for me"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "surprise me",
+          "synonyms": [
+            "random, any book, your choice"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "readinglevel_entity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "adult",
+          "synonyms": [
+            "mature, grown-up, serious"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "advanced",
+          "synonyms": [
+            "challenging, complex, difficult"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "beginner",
+          "synonyms": [
+            "starter, easy, introductory"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "casual",
+          "synonyms": [
+            "light, relaxed, non-serious"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "expert",
+          "synonyms": [
+            "scholarly, academic, pro-level"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "intermediate",
+          "synonyms": [
+            "moderate, normal, mid-level"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lengthy",
+          "synonyms": [
+            "long, detailed, in-depth"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "quick read",
+          "synonyms": [
+            "short, fast, speedy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "teen",
+          "synonyms": [
+            "adolescent, young adult, YA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "young reader",
+          "synonyms": [
+            "child, kids, juvenile"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_6_1751888236346",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What genre do you prefer?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1751974912558",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1751974912586",
+      "previous_sibling": "handler_4_1751974912586"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1751974590320",
+      "context": {
+        "author_entity": "@author_entity"
+      },
+      "conditions": "@author_entity",
+      "event_name": "input",
+      "dialog_node": "handler_3_1751974590373"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Which author are you looking for?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1751974590320",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1751974590373",
+      "previous_sibling": "handler_3_1751974590373"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1751974912558",
+      "context": {
+        "genre_entity": "@genre_entity"
+      },
+      "conditions": "@genre_entity",
+      "event_name": "input",
+      "dialog_node": "handler_4_1751974912586"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How are you feeling today?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1751974841993",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1751974842021",
+      "previous_sibling": "handler_7_1751974842021"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1751974841993",
+      "context": {
+        "mood_entity": "@mood_entity"
+      },
+      "conditions": "@mood_entity",
+      "event_name": "input",
+      "dialog_node": "handler_7_1751974842021"
+    },
+    {
+      "type": "standard",
+      "title": "🌍 Khaled Hosseini",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🌍 Emotionally powerful stories from Khaled Hosseini:\n\nThe Kite Runner\n\nA Thousand Splendid Suns\n\nAnd the Mountains Echoed\n\nSea Prayer\n\nThe Pearl That Broke Its Shell "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(Khaled Hosseini)",
+      "dialog_node": "node_10_1751889709355",
+      "previous_sibling": "node_6_1751889705509"
+    },
+    {
+      "type": "standard",
+      "title": "🕰 Charles Dickens",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕰 Victorian tales from Charles Dickens:\n\nA Tale of Two Cities\n\nGreat Expectations\n\nOliver Twist\n\nDavid Copperfield\n\nBleak House\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(Charles Dickens)",
+      "dialog_node": "node_10_1751889730080",
+      "previous_sibling": "node_4_1751889727152"
+    },
+    {
+      "type": "standard",
+      "title": "🌺Arundhati Roy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🌺 Insightful works by Arundhati Roy:\n\nThe God of Small Things\n\nThe Ministry of Utmost Happiness\n\nBroken Republic\n\nAzadi\n\nField Notes on Democracy"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(Arundhati Roy)",
+      "dialog_node": "node_10_1751889739025",
+      "previous_sibling": "node_1_1751889736070"
+    },
+    {
+      "type": "standard",
+      "title": "😴 Tired",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Feeling drained? Let’s find you an easy, restful read.😴\n\nBooks:\n\nThe No. 1 Ladies’ Detective Agency – Alexander McCall Smith\n\nAnne of Green Gables – L.M. Montgomery\n\nThe Bookish Life of Nina Hill – Abbi Waxman\n\nThe Guernsey Literary and Potato Peel Pie Society – Mary Ann Shaffer\n\nLittle Women – Louisa May Alcott"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:tired && #Mood",
+      "dialog_node": "node_10_1751968039927",
+      "previous_sibling": "node_6_1751968024498"
+    },
+    {
+      "type": "standard",
+      "title": "😔 Lonely",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Need some emotional connection? These stories understand.😔\n\nBooks:\n\nThe Lonely City – Olivia Laing\n\nEleanor Oliphant Is Completely Fine – Gail Honeyman\n\nOn Earth We're Briefly Gorgeous – Ocean Vuong\n\nOona Out of Order – Margarita Montimore\n\nAnxious People – Fredrik Backman"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:lonely && #Mood",
+      "dialog_node": "node_10_1751968078369",
+      "previous_sibling": "node_10_1751968039927"
+    },
+    {
+      "type": "standard",
+      "title": "📚Intermediate",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📚 You’re ready for deeper plots! Try The Book Thief, Eleanor & Park, or The Fault in Our Stars — beautifully written yet accessible."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1751970234947",
+      "conditions": "@readinglevel_entity:intermediate || #Reading_Level",
+      "dialog_node": "node_10_1751970386311",
+      "previous_sibling": "node_7_1751970336694"
+    },
+    {
+      "type": "standard",
+      "title": "📖Casual",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📖 In the mood for something light? Try Eleanor Oliphant Is Completely Fine or The Rosie Project — fun and heartwarming."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1751970234947",
+      "conditions": "@readinglevel_entity:casual || #Reading_Level",
+      "dialog_node": "node_10_1751970503387",
+      "previous_sibling": "node_2_1751970490860"
+    },
+    {
+      "type": "standard",
+      "title": "🌋J.R.R. Tolkien",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🌋 Epic fantasy by J.R.R. Tolkien:\n\nThe Hobbit\n\nThe Fellowship of the Ring\n\nThe Two Towers\n\nThe Return of the King\n\nThe Silmarillion"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(J.R.R. Tolkien)",
+      "dialog_node": "node_1_1751889736070",
+      "previous_sibling": "node_3_1751889732917"
+    },
+    {
+      "type": "standard",
+      "title": "🕉 Amish Tripathi",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕉 Mythological fiction by Amish Tripathi:\n\nThe Immortals of Meluha\n\nThe Secret of the Nagas\n\nThe Oath of the Vayuputras\n\nRam: Scion of Ikshvaku\n\nSita: Warrior of Mithila\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(Amish Tripathi)",
+      "dialog_node": "node_1_1751889741902",
+      "previous_sibling": "node_10_1751889739025"
+    },
+    {
+      "type": "standard",
+      "title": "🤩 Excited",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're pumped! Let’s ride that high energy into an exciting read!🤩\n\nBooks:\n\nReady Player One – Ernest Cline\n\nSix of Crows – Leigh Bardugo\n\nDivergent – Veronica Roth\n\nArtemis – Andy Weir\n\nPercy Jackson & the Olympians – Rick Riordan"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:excited && #Mood",
+      "dialog_node": "node_1_1751967983679",
+      "previous_sibling": "node_5_1751967948002"
+    },
+    {
+      "type": "standard",
+      "title": "✨ Inspired",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let’s feed that inspiration with stories of brilliance and dreams.✨\n\nBooks:\n\nBig Magic – Elizabeth Gilbert\n\nSteal Like an Artist – Austin Kleon\n\nThe Creative Act – Rick Rubin\n\nThe War of Art – Steven Pressfield\n\nThe Artist's Way – Julia Cameron"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:inspired && #Mood",
+      "dialog_node": "node_1_1751968170706",
+      "previous_sibling": "node_4_1751968166582"
+    },
+    {
+      "type": "standard",
+      "title": "📘 Teen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📘 Teens love relatable reads! Try The Hunger Games, They Both Die at the End, or Wonder. Real feels and big themes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1751970234947",
+      "conditions": "@readinglevel_entity:teen || #Reading_Level",
+      "dialog_node": "node_1_1751970465954",
+      "previous_sibling": "node_5_1751970454084"
+    },
+    {
+      "type": "frame",
+      "title": "Genre",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Genre || @genre_entity",
+      "dialog_node": "node_2_1751881865386",
+      "previous_sibling": "node_9_1751970234947"
+    },
+    {
+      "type": "standard",
+      "title": "🌈 Magical Realism",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🌈 Where reality meets the surreal — explore the whimsical world of magical realism.\n\nOne Hundred Years of Solitude – Gabriel García Márquez\n\nThe House of the Spirits – Isabel Allende\n\nThe Ocean at the End of the Lane – Neil Gaiman\n\nKafka on the Shore – Haruki Murakami\n\nThe Night Circus – Erin Morgenstern\n\nLike Water for Chocolate – Laura Esquivel\n\nBeloved – Toni Morrison\n\nThe Master and Margarita – Mikhail Bulgakov\n\nMidnight’s Children – Salman Rushdie\n\nThe Time Traveler’s Wife – Audrey Niffenegger\n\nThe Particular Sadness of Lemon Cake – Aimee Bender\n\nThe Book Thief – Markus Zusak\n\nThe Snow Child – Eowyn Ivey\n\nThe Invisible Life of Addie LaRue – V.E. Schwab\n\nLife of Pi – Yann Martel\n\nThe Brief Wondrous Life of Oscar Wao – Junot Díaz\n\nThe Tiger’s Wife – Téa Obreht\n\nThe Buried Giant – Kazuo Ishiguro\n\nChocolat – Joanne Harris\n\nThe Golem and the Jinni – Helene Wecker\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "@genre_entity:(magical realism) && #Genre",
+      "dialog_node": "node_2_1751883853600",
+      "previous_sibling": "node_8_1751883819294"
+    },
+    {
+      "type": "standard",
+      "title": "📚 Chetan Bhagat",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📚 Contemporary Indian fiction from Chetan Bhagat:\n\nFive Point Someone\n\n2 States\n\nOne Night @ the Call Center\n\nThe Girl in Room 105\n\nRevolution 2020\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(Chetan Bhagat)",
+      "dialog_node": "node_2_1751889669920",
+      "previous_sibling": "node_4_1751889667467"
+    },
+    {
+      "type": "standard",
+      "title": "✨ Paulo Coelho",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "✨ Inspirational reads by Paulo Coelho:\n\nThe Alchemist\n\nBrida\n\nEleven Minutes\n\nThe Zahir\n\nThe Valkyries"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(Paulo Coelho)",
+      "dialog_node": "node_2_1751889686116",
+      "previous_sibling": "node_2_1751889669920"
+    },
+    {
+      "type": "standard",
+      "title": "📚Expert",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📚 You love a literary challenge! Explore Ulysses by James Joyce, Infinite Jest by David Foster Wallace, or Atlas Shrugged by Ayn Rand."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1751970234947",
+      "conditions": "@readinglevel_entity:expert || #Reading_Level",
+      "dialog_node": "node_2_1751970490860",
+      "previous_sibling": "node_4_1751970478121"
+    },
+    {
+      "type": "standard",
+      "title": "⏱️ Quick Read",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "⏱️ Short on time? Try Animal Farm, Of Mice and Men, or We Should All Be Feminists — powerful and under 200 pages."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1751970234947",
+      "conditions": "@readinglevel_entity:(quick read) || #Reading_Level",
+      "dialog_node": "node_2_1751970516351",
+      "previous_sibling": "node_10_1751970503387"
+    },
+    {
+      "type": "standard",
+      "title": "Don't Know What to Read",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📚 No problem at all! Just tell me a bit about your interests — or even your mood — and I’ll suggest a perfect book.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751970910896",
+      "conditions": "@need_help_deciding_entity:(don't know what to read) || #Need_help_deciding",
+      "dialog_node": "node_2_1751971158076",
+      "previous_sibling": "node_4_1751971156107"
+    },
+    {
+      "type": "standard",
+      "title": "⏱️Thriller",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "⏱️ Brace yourself for edge-of-your-seat suspense with these high-stakes thrillers!\n\nThe Girl with the Dragon Tattoo – Stieg Larsson\n\nGone Girl – Gillian Flynn\n\nThe Silent Patient – Alex Michaelides\n\nThe Woman in the Window – A.J. Finn\n\nThe Couple Next Door – Shari Lapena\n\nBehind Closed Doors – B.A. Paris\n\nBefore I Go to Sleep – S.J. Watson\n\nThe Girl on the Train – Paula Hawkins\n\nThen She Was Gone – Lisa Jewell\n\nThe Chain – Adrian McKinty\n\nLock Every Door – Riley Sager\n\nThe Last House Guest – Megan Miranda\n\nNo Exit – Taylor Adams\n\nThe Turn of the Key – Ruth Ware\n\nVerity – Colleen Hoover\n\nFinal Girls – Riley Sager\n\nHome Before Dark – Riley Sager\n\nThe Housemaid – Freida McFadden\n\nThe Good Daughter – Karin Slaughter\n\nThe Girl Who Played with Fire – Stieg Larsson\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "@genre_entity:thriller && #Genre",
+      "dialog_node": "node_3_1751882652148",
+      "previous_sibling": "node_6_1751882487059"
+    },
+    {
+      "type": "standard",
+      "title": "🕵️ Mystery",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️ Solve thrilling puzzles and uncover secrets with these gripping mystery novels.\n\nGone Girl – Gillian Flynn\n\nThe Girl with the Dragon Tattoo – Stieg Larsson\n\nBig Little Lies – Liane Moriarty\n\nThe Da Vinci Code – Dan Brown\n\nThe Cuckoo’s Calling – Robert Galbraith\n\nIn the Woods – Tana French\n\nThe Reversal – Michael Connelly\n\nThe Secret History – Donna Tartt\n\nStill Life – Louise Penny\n\nThe Woman in White – Wilkie Collins\n\nThe Hound of the Baskervilles – Arthur Conan Doyle\n\nThe No. 1 Ladies' Detective Agency – Alexander McCall Smith\n\nThe Dry – Jane Harper\n\nThe Girl Who Played with Fire – Stieg Larsson\n\nThe Murder of Roger Ackroyd – Agatha Christie\n\nThe Moonstone – Wilkie Collins\n\nMagpie Murders – Anthony Horowitz\n\nBefore She Knew Him – Peter Swanson\n\nThe 7½ Deaths of Evelyn Hardcastle – Stuart Turton\n\nThe Thursday Murder Club – Richard Osman"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "@genre_entity:mystery && #Genre",
+      "dialog_node": "node_3_1751883319144",
+      "previous_sibling": "node_6_1751882763528"
+    },
+    {
+      "type": "standard",
+      "title": "🎭William Shakespeare",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🎭 Dramatic masterpieces by Shakespeare:\n\nRomeo and Juliet\n\nMacbeth\n\nHamlet\n\nOthello\n\nA Midsummer Night’s Dream\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(William Shakespeare)",
+      "dialog_node": "node_3_1751889732917",
+      "previous_sibling": "node_10_1751889730080"
+    },
+    {
+      "type": "frame",
+      "title": "Mood Recommendation",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@mood_entity || #Mood",
+      "dialog_node": "node_3_1751967624086",
+      "previous_sibling": "node_2_1751881865386"
+    },
+    {
+      "type": "standard",
+      "title": "😰 Stressed",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Rough day? Let me find you a book that soothes your mind.😰\n\nBooks:\n\nThe Alchemist – Paulo Coelho\n\nBig Magic – Elizabeth Gilbert\n\nThe Midnight Library – Matt Haig\n\nIkigai – Héctor García & Francesc Miralles\n\nThe Little Book of Hygge – Meik Wiking\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:stressed && #Mood",
+      "dialog_node": "node_3_1751967925180",
+      "previous_sibling": "node_5_1751967910397"
+    },
+    {
+      "type": "standard",
+      "title": "Need Help Deciding",
+      "output": {
+        "generic": [
+          {
+            "title": "🤖What would you like help with?",
+            "options": [],
+            "description": "📚 Genre → I want to explore genres  😊 Mood → I feel...  📖 Reading Level → I am a beginner reader  🎲 Surprise Me → Surprise me",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@need_help_deciding_entity || #Need_help_deciding",
+      "dialog_node": "node_3_1751970910896"
+    },
+    {
+      "type": "standard",
+      "title": "Need Help / Can’t Decide",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🤖 Try The Midnight Library by Matt Haig — it’s thoughtful, inspiring, and universally loved."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751970910896",
+      "conditions": "@need_help_deciding_entity:(need help) ||  @need_help_deciding_entity:(can't decide) || #Need_help_deciding",
+      "dialog_node": "node_3_1751971149967"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👋 Bye for now! Happy reading — come back anytime for more book magic! 📚✨"
+              },
+              {
+                "text": "📚 Until next time — happy reading!"
+              },
+              {
+                "text": "🧡 Take care! Come back anytime for book magic."
+              },
+              {
+                "text": "🌟 Thanks for visiting! Let the stories stay with you."
+              },
+              {
+                "text": "👋 Bye-bye! May your bookshelf never be empty."
+              },
+              {
+                "text": "🧳 Off on a new adventure? Books await when you return!"
+              },
+              {
+                "text": "🪄 See you soon — with more tales and twists!"
+              },
+              {
+                "text": "📖 That’s a wrap for now. Come back when you're ready for your next chapter."
+              },
+              {
+                "text": "🕮 Catch you later! Don't forget to bookmark your favorites."
+              },
+              {
+                "text": "🧠 Go read something amazing. I'll be here when you're back!"
+              },
+              {
+                "text": "👋 Goodbye! May your next read be unforgettable. 📖✨"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Goodbye",
+      "dialog_node": "node_3_1751972703095",
+      "previous_sibling": "node_6_1751879657113"
+    },
+    {
+      "type": "standard",
+      "title": "👻Horror",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👻 Dare to read in the dark? These chilling horror tales will haunt your imagination.\n\nThe Haunting of Hill House – Shirley Jackson\n\nIt – Stephen King\n\nThe Shining – Stephen King\n\nHouse of Leaves – Mark Z. Danielewski\n\nBird Box – Josh Malerman\n\nThe Exorcist – William Peter Blatty\n\nThe Silence of the Lambs – Thomas Harris\n\nMexican Gothic – Silvia Moreno-Garcia\n\nDracula – Bram Stoker\n\nFrankenstein – Mary Shelley\n\nThe Turn of the Screw – Henry James\n\nThe Ritual – Adam Nevill\n\nThe Troop – Nick Cutter\n\nSomething Wicked This Way Comes – Ray Bradbury\n\nPet Sematary – Stephen King\n\nThe Cabin at the End of the World – Paul Tremblay\n\nThe Only Good Indians – Stephen Graham Jones\n\nThe Southern Book Club's Guide to Slaying Vampires – Grady Hendrix\n\nThe Final Girl Support Group – Grady Hendrix\n\nMy Best Friend’s Exorcism – Grady Hendrix"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "@genre_entity:horror && #Genre",
+      "dialog_node": "node_4_1751883404670",
+      "previous_sibling": "node_9_1751883359756"
+    },
+    {
+      "type": "standard",
+      "title": "🌟 Self-Help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🌟 Empower your mind and transform your life with these motivational self-help reads.\n\nAtomic Habits – James Clear\n\nThe 7 Habits of Highly Effective People – Stephen R. Covey\n\nThink and Grow Rich – Napoleon Hill\n\nThe Power of Now – Eckhart Tolle\n\nThe Subtle Art of Not Giving a F*ck – Mark Manson\n\nHow to Win Friends and Influence People – Dale Carnegie\n\nCan’t Hurt Me – David Goggins\n\nDeep Work – Cal Newport\n\nGrit – Angela Duckworth\n\nYou Are a Badass – Jen Sincero\n\nThe Four Agreements – Don Miguel Ruiz\n\nThe Miracle Morning – Hal Elrod\n\nIkigai – Hector Garcia & Francesc Miralles\n\nThe Power of Habit – Charles Duhigg\n\nBig Magic – Elizabeth Gilbert\n\nMindset – Carol S. Dweck\n\nStart with Why – Simon Sinek\n\nMake Your Bed – William H. McRaven\n\n12 Rules for Life – Jordan B. Peterson\n\nFeel the Fear and Do It Anyway – Susan Jeffers"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "@genre_entity:self-help && #Genre",
+      "dialog_node": "node_4_1751883445702",
+      "previous_sibling": "node_4_1751883404670"
+    },
+    {
+      "type": "standard",
+      "title": " 🔍Agatha Christie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🔍 Craving mystery? Check out Agatha Christie’s classics:\n\nMurder on the Orient Express\n\nAnd Then There Were None\n\nDeath on the Nile\n\nThe Mysterious Affair at Styles\n\nThe ABC Murders"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(Agatha Christie)",
+      "dialog_node": "node_4_1751889667467",
+      "previous_sibling": "node_5_1751889664678"
+    },
+    {
+      "type": "standard",
+      "title": "🎃Stephen King",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🎃 Horror and suspense by Stephen King:\n\nThe Shining\n\nIt\n\nCarrie\n\nMisery\n\nPet Sematary"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(Stephen King)",
+      "dialog_node": "node_4_1751889713188",
+      "previous_sibling": "node_10_1751889709355"
+    },
+    {
+      "type": "standard",
+      "title": "💌Jane Austen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "💌 Romantic classics from Jane Austen:\n\nPride and Prejudice\n\nSense and Sensibility\n\nEmma\n\nPersuasion\n\nMansfield Park"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(Jane Austen)",
+      "dialog_node": "node_4_1751889716905",
+      "previous_sibling": "node_4_1751889713188"
+    },
+    {
+      "type": "standard",
+      "title": "📚 Leo Tolstoy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📚 Russian epics by Leo Tolstoy:\n\nWar and Peace\n\nAnna Karenina\n\nThe Death of Ivan Ilyich\n\nResurrection\n\nThe Kreutzer Sonata"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(Leo Tolstoy)",
+      "dialog_node": "node_4_1751889727152",
+      "previous_sibling": "node_9_1751889724345"
+    },
+    {
+      "type": "standard",
+      "title": "🌈 Hopeful",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hope is a powerful thing. Want something uplifting and inspiring?🌈\n\nBooks:\n\nWonder – R.J. Palacio\n\nEducated – Tara Westover\n\nThe Book Thief – Markus Zusak\n\nBecoming – Michelle Obama\n\nThe Giver of Stars – Jojo Moyes"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:hopeful && #Mood",
+      "dialog_node": "node_4_1751968166582",
+      "previous_sibling": "node_9_1751968163104"
+    },
+    {
+      "type": "standard",
+      "title": "📗Adult",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📗 For mature themes and layered plots, check out A Man Called Ove, The Silent Patient, or Where the Crawdads Sing."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1751970234947",
+      "conditions": "@readinglevel_entity:adult || #Reading_Level",
+      "dialog_node": "node_4_1751970478121",
+      "previous_sibling": "node_1_1751970465954"
+    },
+    {
+      "type": "standard",
+      "title": "Surprise Me",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🎁 Surprise coming up! How about Verity by Colleen Hoover — a twisty blend of romance and thriller?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751970910896",
+      "conditions": "@need_help_deciding_entity:(surprise me) || #Need_help_deciding",
+      "dialog_node": "node_4_1751971156107",
+      "previous_sibling": "node_9_1751971153940"
+    },
+    {
+      "type": "standard",
+      "title": "Explore Genres",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🔍 Let’s explore together! I’ve got thrillers, fantasy, romance, and more. What catches your eye?\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751970910896",
+      "conditions": "@need_help_deciding_entity:(explore genres) || #Need_help_deciding",
+      "dialog_node": "node_4_1751971160593",
+      "previous_sibling": "node_2_1751971158076"
+    },
+    {
+      "type": "standard",
+      "title": " 🧬Biography",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🧬 Discover the real lives and inspiring journeys of remarkable people.\n\nSteve Jobs – Walter Isaacson\n\nBecoming – Michelle Obama\n\nLong Walk to Freedom – Nelson Mandela\n\nThe Diary of a Young Girl – Anne Frank\n\nEducated – Tara Westover\n\nI Am Malala – Malala Yousafzai\n\nWhen Breath Becomes Air – Paul Kalanithi\n\nInto the Wild – Jon Krakauer\n\nAlexander Hamilton – Ron Chernow\n\nThe Glass Castle – Jeanette Walls\n\nChurchill: A Life – Martin Gilbert\n\nElon Musk – Ashlee Vance\n\nWild – Cheryl Strayed\n\nBorn a Crime – Trevor Noah\n\nOpen – Andre Agassi\n\nCatch Me If You Can – Frank Abagnale\n\nThe Wright Brothers – David McCullough\n\nJust as I Am – Cicely Tyson\n\nThe Immortal Life of Henrietta Lacks – Rebecca Skloot\n\nSpare – Prince Harry\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "@genre_entity:biography && #Genre",
+      "dialog_node": "node_5_1751883729226",
+      "previous_sibling": "node_4_1751883445702"
+    },
+    {
+      "type": "standard",
+      "title": "🐉George R.R. Martin",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🐉 Dive into fantasy realms with George R.R. Martin:\n\nA Game of Thrones\n\nA Clash of Kings\n\nA Storm of Swords\n\nA Feast for Crows\n\nA Dance with Dragons"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(George R.R. Martin)",
+      "dialog_node": "node_5_1751889664678",
+      "previous_sibling": "node_6_1751889568022"
+    },
+    {
+      "type": "standard",
+      "title": "😐 Bored",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Feeling bored? Let’s fix that with a gripping or fun read.😐 \n\nBooks:\n\nGone Girl – Gillian Flynn\n\nThe Hunger Games – Suzanne Collins\n\nProject Hail Mary – Andy Weir\n\nThe Da Vinci Code – Dan Brown\n\nOne of Us Is Lying – Karen M. McManus"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:bored && #Mood",
+      "dialog_node": "node_5_1751967910397",
+      "previous_sibling": "node_9_1751967889959"
+    },
+    {
+      "type": "standard",
+      "title": "😡 Angry",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Want to blow off steam with an intense story? I’ve got you.😡\n\nBooks:\n\nThe Girl with the Dragon Tattoo – Stieg Larsson\n\nSharp Objects – Gillian Flynn\n\nThe Power – Naomi Alderman\n\nYou – Caroline Kepnes\n\nCarrie – Stephen King"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:angry && #Mood",
+      "dialog_node": "node_5_1751967948002",
+      "previous_sibling": "node_3_1751967925180"
+    },
+    {
+      "type": "standard",
+      "title": "😵 Overwhelmed",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let’s step away from the chaos. You deserve a breather.😵 \n\nBooks:\n\nThe Subtle Art of Not Giving a Fck* – Mark Manson\n\nEssentialism – Greg McKeown\n\nThe Art of Stillness – Pico Iyer\n\nNotes on a Nervous Planet – Matt Haig\n\nEverything is Fcked* – Mark Manson"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:overwhelmed && #Mood",
+      "dialog_node": "node_5_1751968146332",
+      "previous_sibling": "node_7_1751968113894"
+    },
+    {
+      "type": "standard",
+      "title": "🛌 Lazy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Too lazy to pick a book? No worries — these are short, fun, and easy reads.🛌\n\nBooks:\n\nThe Hitchhiker's Guide to the Galaxy – Douglas Adams\n\nWe Should All Be Feminists – Chimamanda Ngozi Adichie\n\nThe Curious Incident of the Dog in the Night-Time – Mark Haddon\n\nEleanor & Park – Rainbow Rowell\n\nOf Mice and Men – John Steinbeck"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:lazy && #Mood",
+      "dialog_node": "node_5_1751968175053",
+      "previous_sibling": "node_1_1751968170706"
+    },
+    {
+      "type": "standard",
+      "title": "📙Young Reader",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📙 Great for young readers! Try Charlotte’s Web, Percy Jackson, or The Chronicles of Narnia — full of fun and imagination."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1751970234947",
+      "conditions": "@readinglevel_entity:(young reader) || #Reading_Level",
+      "dialog_node": "node_5_1751970454084",
+      "previous_sibling": "node_6_1751970428525"
+    },
+    {
+      "type": "standard",
+      "title": "📘Lengthy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📘 Want to get lost in a long read? Try Les Misérables, The Stand, or Middlemarch. These books are worth every page."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1751970234947",
+      "conditions": "@readinglevel_entity:lengthy || #Reading_Level",
+      "dialog_node": "node_5_1751970545443",
+      "previous_sibling": "node_2_1751970516351"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, book explorer! 📖 Let’s turn the page to your next great adventure!"
+              },
+              {
+                "text": "Hi there! 📚 Let’s find a story that speaks to you."
+              },
+              {
+                "text": "Hey! Ready to dive into a world of words?"
+              },
+              {
+                "text": "Greetings! 📖 Let’s match you with your next favorite book."
+              },
+              {
+                "text": "Hey, book lover! Let’s turn curiosity into chapters."
+              },
+              {
+                "text": "Welcome! I’ve got stories waiting just for you."
+              },
+              {
+                "text": "Hey hey! Let’s vibe with a great book today."
+              },
+              {
+                "text": "Hi there. A world of ideas is just a title away."
+              },
+              {
+                "text": "Sup, reader? Let’s find your next obsession."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Greetings",
+      "dialog_node": "node_6_1751879657113",
+      "previous_sibling": "node_3_1751967624086"
+    },
+    {
+      "type": "standard",
+      "title": "💌Romance",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "💌 Fall in love with heartfelt romances that tug at your soul and warm your heart.\n\nThe Rosie Project – Graeme Simsion\n\nMe Before You – Jojo Moyes\n\nThe Notebook – Nicholas Sparks\n\nIt Ends with Us – Colleen Hoover\n\nThe Hating Game – Sally Thorne\n\nBeach Read – Emily Henry\n\nRed, White & Royal Blue – Casey McQuiston\n\nOutlander – Diana Gabaldon\n\nThe Kiss Quotient – Helen Hoang\n\nOne Day – David Nicholls\n\nThe Love Hypothesis – Ali Hazelwood\n\nPeople We Meet on Vacation – Emily Henry\n\nThe Flatshare – Beth O'Leary\n\nNovember 9 – Colleen Hoover\n\nTo All the Boys I’ve Loved Before – Jenny Han\n\nThe Wedding Date – Jasmine Guillory\n\nBeautiful Disaster – Jamie McGuire\n\nThe Time Traveler's Wife – Audrey Niffenegger\n\nLove and Other Words – Christina Lauren\n\nEleanor & Park – Rainbow Rowell"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "@genre_entity:romance && #Genre",
+      "dialog_node": "node_6_1751882487059",
+      "previous_sibling": "response_2_1751974935280"
+    },
+    {
+      "type": "standard",
+      "title": " 🚀Science Fiction",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🚀 Blast off into futuristic worlds and alternate realities with these sci-fi classics.\n\nDune – Frank Herbert\n\nEnder's Game – Orson Scott Card\n\nThe Martian – Andy Weir\n\nNeuromancer – William Gibson\n\nFoundation – Isaac Asimov\n\nReady Player One – Ernest Cline\n\nSnow Crash – Neal Stephenson\n\nHyperion – Dan Simmons\n\nThe Left Hand of Darkness – Ursula K. Le Guin\n\nThe Three-Body Problem – Liu Cixin\n\nAltered Carbon – Richard K. Morgan\n\nRed Mars – Kim Stanley Robinson\n\nOld Man’s War – John Scalzi\n\nThe Power – Naomi Alderman\n\nProject Hail Mary – Andy Weir\n\nDark Matter – Blake Crouch\n\nThe Space Between Worlds – Micaiah Johnson\n\nThe Long Way to a Small, Angry Planet – Becky Chambers\n\nAll Systems Red – Martha Wells\n\nAn Absolutely Remarkable Thing – Hank Green"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "@genre_entity:(science fiction) && #Genre",
+      "dialog_node": "node_6_1751882763528",
+      "previous_sibling": "node_9_1751882704509"
+    },
+    {
+      "type": "standard",
+      "title": "🎭 Drama",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🎭Dive into deep emotional conflicts and complex characters in powerful dramas.\nLittle Fires Everywhere – Celeste Ng\n\nThe Help – Kathryn Stockett\n\nA Thousand Splendid Suns – Khaled Hosseini\n\nThe Kite Runner – Khaled Hosseini\n\nThe Secret Life of Bees – Sue Monk Kidd\n\nAnxious People – Fredrik Backman\n\nThe Glass Castle – Jeannette Walls\n\nRoom – Emma Donoghue\n\nThe Dutch House – Ann Patchett\n\nThe Immortalists – Chloe Benjamin\n\nThe Lovely Bones – Alice Sebold\n\nThe Light Between Oceans – M.L. Stedman\n\nMy Sister’s Keeper – Jodi Picoult\n\nSing, Unburied, Sing – Jesmyn Ward\n\nEleanor Oliphant Is Completely Fine – Gail Honeyman\n\nThe Paper Palace – Miranda Cowley Heller\n\nThe Book of Lost Names – Kristin Harmel\n\nThe Storyteller – Jodi Picoult\n\nAsk Again, Yes – Mary Beth Keane\n\nThe Night Watch – Sarah Waters\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "@genre_entity:drama && #Genre",
+      "dialog_node": "node_6_1751883884994",
+      "previous_sibling": "node_2_1751883853600"
+    },
+    {
+      "type": "standard",
+      "title": "🧭Adventure",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🧭 Embark on unforgettable quests and daring journeys with these adventure-packed books.\n\nThe Alchemist – Paulo Coelho\n\nLife of Pi – Yann Martel\n\nInto the Wild – Jon Krakauer\n\nThe Hobbit – J.R.R. Tolkien\n\nTreasure Island – Robert Louis Stevenson\n\nHatchet – Gary Paulsen\n\nThe Call of the Wild – Jack London\n\nThe 39 Steps – John Buchan\n\nAround the World in Eighty Days – Jules Verne\n\nThe Count of Monte Cristo – Alexandre Dumas\n\nJourney to the Center of the Earth – Jules Verne\n\nRobinson Crusoe – Daniel Defoe\n\nThe Lost City of Z – David Grann\n\nWild – Cheryl Strayed\n\nThe River of Doubt – Candice Millard\n\nEndurance – Alfred Lansing\n\nThe Beach – Alex Garland\n\nThe Swiss Family Robinson – Johann D. Wyss\n\nKing Solomon’s Mines – H. Rider Haggard\n\nIn Patagonia – Bruce Chatwin\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "@genre_entity:adventure && #Genre",
+      "dialog_node": "node_6_1751883918228",
+      "previous_sibling": "node_6_1751883884994"
+    },
+    {
+      "type": "frame",
+      "title": "Author Recommendation",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Author_Search || @author_entity",
+      "dialog_node": "node_6_1751888236346",
+      "previous_sibling": "node_3_1751972703095"
+    },
+    {
+      "type": "standard",
+      "title": "🧙‍♀️J.K. Rowling",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🧙‍♀️ Love magical adventures? Try these by J.K. Rowling:\n\nHarry Potter and the Sorcerer's Stone\n\nChamber of Secrets\n\nPrisoner of Azkaban\n\nGoblet of Fire\n\nThe Casual Vacancy"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(J.K. Rowling)",
+      "dialog_node": "node_6_1751889568022",
+      "previous_sibling": "response_10_1751974888588"
+    },
+    {
+      "type": "standard",
+      "title": "🎨Rabindranath Tagore",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🎨 Timeless works by Rabindranath Tagore:\n\nGitanjali\n\nThe Home and the World\n\nKabuliwala\n\nChokher Bali\n\nThe Post Office"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(Rabindranath Tagore)",
+      "dialog_node": "node_6_1751889694478",
+      "previous_sibling": "node_7_1751889690660"
+    },
+    {
+      "type": "standard",
+      "title": "📖 R.K. Narayan",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📖 Explore Indian life through R.K. Narayan’s stories:\n\nSwami and Friends\n\nThe Guide\n\nThe Bachelor of Arts\n\nThe English Teacher\n\nMalgudi Days\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(R.K. Narayan)",
+      "dialog_node": "node_6_1751889701499",
+      "previous_sibling": "node_6_1751889694478"
+    },
+    {
+      "type": "standard",
+      "title": "🌲Ruskin Bond",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🌲 Wholesome and heartfelt reads by Ruskin Bond:\n\nThe Blue Umbrella\n\nRoom on the Roof\n\nA Flight of Pigeons\n\nRusty, the Boy from the Hills\n\nDelhi Is Not Far\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(Ruskin Bond)",
+      "dialog_node": "node_6_1751889705509",
+      "previous_sibling": "node_6_1751889701499"
+    },
+    {
+      "type": "standard",
+      "title": "😌 Calm",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You’re in a calm space. How about something slow and beautiful?😌 \n\nBooks:\n\nPachinko – Min Jin Lee\n\nA Tree Grows in Brooklyn – Betty Smith\n\nNorwegian Wood – Haruki Murakami\n\nGilead – Marilynne Robinson\n\nThe Secret Garden – Frances Hodgson Burnett"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:calm && #Mood",
+      "dialog_node": "node_6_1751968024498",
+      "previous_sibling": "node_7_1751967997597"
+    },
+    {
+      "type": "standard",
+      "title": "🤔 Curious",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Curiosity is the first step to adventure. Let’s explore!🤔 \n\nBooks:\n\nSapiens: A Brief History of Humankind – Yuval Noah Harari\n\nThe Martian – Andy Weir\n\nThe Seven Husbands of Evelyn Hugo – Taylor Jenkins Reid\n\nThe Immortal Life of Henrietta Lacks – Rebecca Skloot\n\nThe Silent Patient – Alex Michaelides"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:curious && #Mood",
+      "dialog_node": "node_6_1751968098600",
+      "previous_sibling": "node_10_1751968078369"
+    },
+    {
+      "type": "standard",
+      "title": "📖 Advanced",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📖 Craving complexity? Explore War and Peace, The Brothers Karamazov, or One Hundred Years of Solitude. Deep and rewarding reads!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1751970234947",
+      "conditions": "@readinglevel_entity:advanced || #Reading_Level",
+      "dialog_node": "node_6_1751970428525",
+      "previous_sibling": "node_10_1751970386311"
+    },
+    {
+      "type": "standard",
+      "title": "🕵️‍♂️Dan Brown",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♂️ Thrilling page-turners from Dan Brown:\n\nThe Da Vinci Code\n\nAngels & Demons\n\nInferno\n\nOrigin\n\nThe Lost Symbol"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(Dan Brown)",
+      "dialog_node": "node_7_1751889690660",
+      "previous_sibling": "node_2_1751889686116"
+    },
+    {
+      "type": "standard",
+      "title": "🎉 Happy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yay! You’re in a great mood! Want something light and cheerful to match? I can suggest a feel-good book full of joy and laughter. 😊\n\nBooks:\n\nThe Rosie Project – Graeme Simsion\n\nEleanor Oliphant Is Completely Fine – Gail Honeyman\n\nA Man Called Ove – Fredrik Backman\n\nThe Flatshare – Beth O’Leary\n\nWhere’d You Go, Bernadette – Maria Semple\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:happy && #Mood",
+      "dialog_node": "node_7_1751967685874",
+      "previous_sibling": "response_6_1751974872171"
+    },
+    {
+      "type": "standard",
+      "title": "😟 Anxious",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Feeling anxious? Let’s settle your mind with something gentle.😟 \n\nBooks:\n\nThe Comfort Book – Matt Haig\n\nThe House in the Cerulean Sea – TJ Klune\n\nTiny Beautiful Things – Cheryl Strayed\n\nCharlotte’s Web – E.B. White\n\nThe Boy, the Mole, the Fox and the Horse – Charlie Mackesy"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:anxious && #Mood",
+      "dialog_node": "node_7_1751967997597",
+      "previous_sibling": "node_1_1751967983679"
+    },
+    {
+      "type": "standard",
+      "title": "💪 Motivated",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let’s keep that fire burning with something inspiring.💪\n\nBooks:\n\nAtomic Habits – James Clear\n\nCan’t Hurt Me – David Goggins\n\nGrit – Angela Duckworth\n\nThe 7 Habits of Highly Effective People – Stephen R. Covey\n\nSteve Jobs – Walter Isaacson"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:motivated && #Mood",
+      "dialog_node": "node_7_1751968113894",
+      "previous_sibling": "node_6_1751968098600"
+    },
+    {
+      "type": "standard",
+      "title": "🌿 Peaceful",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You’re radiating calm. Want a story as serene as you feel?🌿 \n\nBooks:\n\nThe Wind in the Willows – Kenneth Grahame\n\nThe Slow Regard of Silent Things – Patrick Rothfuss\n\nThe Garden of Small Beginnings – Abbi Waxman\n\nThe Shell Collector – Anthony Doerr\n\nWalden – Henry David Thoreau"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:peaceful && #Mood",
+      "dialog_node": "node_7_1751968152393",
+      "previous_sibling": "node_5_1751968146332"
+    },
+    {
+      "type": "standard",
+      "title": "📘Beginner",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📘 Just starting out? Try something easy and engaging like The Alchemist by Paulo Coelho or The Little Prince by Antoine de Saint-Exupéry.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1751970234947",
+      "conditions": "@readinglevel_entity:beginner || #Reading_Level",
+      "dialog_node": "node_7_1751970336694"
+    },
+    {
+      "type": "standard",
+      "title": " Recommend / Choose for Me",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🎯 Got it! How about a surprise pick? The Midnight Library is thoughtful and unique. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751970910896",
+      "conditions": "@need_help_deciding_entity:recommend ||  @need_help_deciding_entity:(choose for me) || #Need_help_deciding",
+      "dialog_node": "node_7_1751971151998",
+      "previous_sibling": "node_3_1751971149967"
+    },
+    {
+      "type": "standard",
+      "title": "🧠 Psychological Fiction",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🧠 Step inside the minds of intriguing characters in these thought-provoking reads.\n\nThe Silent Patient – Alex Michaelides\n\nWe Need to Talk About Kevin – Lionel Shriver\n\nThe Bell Jar – Sylvia Plath\n\nThe Girl on the Train – Paula Hawkins\n\nVerity – Colleen Hoover\n\nBefore I Go to Sleep – S.J. Watson\n\nSharp Objects – Gillian Flynn\n\nThe Woman in the Window – A.J. Finn\n\nGone Girl – Gillian Flynn\n\nRoom – Emma Donoghue\n\nThe Catcher in the Rye – J.D. Salinger\n\nThe Perks of Being a Wallflower – Stephen Chbosky\n\nMy Year of Rest and Relaxation – Ottessa Moshfegh\n\nThe Lovely Bones – Alice Sebold\n\nA Clockwork Orange – Anthony Burgess\n\nThe Stranger – Albert Camus\n\nRequiem for a Dream – Hubert Selby Jr.\n\nFight Club – Chuck Palahniuk\n\nThe Collector – John Fowles\n\nThe Secret History – Donna Tartt"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "@genre_entity:(psychological fiction) && #Genre",
+      "dialog_node": "node_8_1751883819294",
+      "previous_sibling": "node_9_1751883766861"
+    },
+    {
+      "type": "standard",
+      "title": "🕰️ Nostalgic",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let’s go back in time with something full of memory and heart.🕰️\n\nBooks:\n\nThe Catcher in the Rye – J.D. Salinger\n\nTo Kill a Mockingbird – Harper Lee\n\nThe Secret History – Donna Tartt\n\nLittle Women – Louisa May Alcott\n\nA Prayer for Owen Meany – John Irving"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:nostalgic && #Mood",
+      "dialog_node": "node_8_1751968156237",
+      "previous_sibling": "node_7_1751968152393"
+    },
+    {
+      "type": "standard",
+      "title": "💘 Romantic",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In the mood for love? Let me recommend something heart-fluttering.💘\n\nBooks:\n\nThe Hating Game – Sally Thorne\n\nMe Before You – Jojo Moyes\n\nPride and Prejudice – Jane Austen\n\nPeople We Meet on Vacation – Emily Henry\n\nThe Notebook – Nicholas Sparks"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:romantic && #Mood",
+      "dialog_node": "node_8_1751968159544",
+      "previous_sibling": "node_8_1751968156237"
+    },
+    {
+      "type": "standard",
+      "title": "🐉Fantasy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🐉 Enter enchanted lands and legendary battles in these magical fantasy adventures.\n\nMistborn – Brandon Sanderson\n\nThe Hobbit – J.R.R. Tolkien\n\nHarry Potter Series – J.K. Rowling\n\nThe Name of the Wind – Patrick Rothfuss\n\nA Game of Thrones – George R.R. Martin\n\nThe Way of Kings – Brandon Sanderson\n\nThe Final Empire – Brandon Sanderson\n\nEragon – Christopher Paolini\n\nThrone of Glass – Sarah J. Maas\n\nA Court of Thorns and Roses – Sarah J. Maas\n\nThe Priory of the Orange Tree – Samantha Shannon\n\nShadow and Bone – Leigh Bardugo\n\nThe Lies of Locke Lamora – Scott Lynch\n\nAn Ember in the Ashes – Sabaa Tahir\n\nCity of Bones – Cassandra Clare\n\nThe Magicians – Lev Grossman\n\nThe Bone Season – Samantha Shannon\n\nChildren of Blood and Bone – Tomi Adeyemi\n\nThe Night Circus – Erin Morgenstern\n\nThe Witcher Series – Andrzej Sapkowski"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "@genre_entity:fantasy && #Genre",
+      "dialog_node": "node_9_1751882704509",
+      "previous_sibling": "node_3_1751882652148"
+    },
+    {
+      "type": "standard",
+      "title": "🏰Historical Fiction",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🏰 Travel back in time and live through history with these richly detailed stories.\n\nThe Book Thief – Markus Zusak\n\nAll the Light We Cannot See – Anthony Doerr\n\nThe Nightingale – Kristin Hannah\n\nThe Tattooist of Auschwitz – Heather Morris\n\nThe Pillars of the Earth – Ken Follett\n\nThe Guernsey Literary and Potato Peel Pie Society – Mary Ann Shaffer\n\nA Gentleman in Moscow – Amor Towles\n\nThe Alice Network – Kate Quinn\n\nThe Paris Library – Janet Skeslien Charles\n\nThe Help – Kathryn Stockett\n\nThe Light Between Oceans – M.L. Stedman\n\nThe Book of Lost Names – Kristin Harmel\n\nBeneath a Scarlet Sky – Mark Sullivan\n\nSarah’s Key – Tatiana de Rosnay\n\nLilac Girls – Martha Hall Kelly\n\nThe Night Watch – Sarah Waters\n\nHomegoing – Yaa Gyasi\n\nSnow Flower and the Secret Fan – Lisa See\n\nMemoirs of a Geisha – Arthur Golden\n\nThe Island – Victoria Hislop"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "@genre_entity:(historical fiction) && #Genre",
+      "dialog_node": "node_9_1751883359756",
+      "previous_sibling": "node_3_1751883319144"
+    },
+    {
+      "type": "standard",
+      "title": "📖Literary Fiction",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📖 Explore the beauty of everyday life and deep emotions in literary gems like these.\n\nA Man Called Ove – Fredrik Backman\n\nThe Goldfinch – Donna Tartt\n\nThe Kite Runner – Khaled Hosseini\n\nNormal People – Sally Rooney\n\nThe Midnight Library – Matt Haig\n\nThe Night Circus – Erin Morgenstern\n\nThe Road – Cormac McCarthy\n\nWhere the Crawdads Sing – Delia Owens\n\nThe Bell Jar – Sylvia Plath\n\nThe Book Thief – Markus Zusak\n\nNorwegian Wood – Haruki Murakami\n\nThe Secret History – Donna Tartt\n\nSmall Things Like These – Claire Keegan\n\nPachinko – Min Jin Lee\n\nThe Shadow of the Wind – Carlos Ruiz Zafón\n\nBeloved – Toni Morrison\n\nThe Remains of the Day – Kazuo Ishiguro\n\nThe Namesake – Jhumpa Lahiri\n\nThe Light We Carry – Michelle Obama\n\nThe Overstory – Richard Powers"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "@genre_entity:(literary fiction) && #Genre",
+      "dialog_node": "node_9_1751883766861",
+      "previous_sibling": "node_5_1751883729226"
+    },
+    {
+      "type": "standard",
+      "title": "🌊 Mark Twain",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🌊 Adventures with Mark Twain:\n\nThe Adventures of Tom Sawyer\n\nAdventures of Huckleberry Finn\n\nThe Prince and the Pauper\n\nA Connecticut Yankee in King Arthur’s Court\n\nLife on the Mississippi"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(Mark Twain)",
+      "dialog_node": "node_9_1751889720866",
+      "previous_sibling": "node_4_1751889716905"
+    },
+    {
+      "type": "standard",
+      "title": "🏞 Ernest Hemingway",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🏞 Classic literature by Ernest Hemingway:\n\nThe Old Man and the Sea\n\nA Farewell to Arms\n\nFor Whom the Bell Tolls\n\nThe Sun Also Rises\n\nIn Our Time\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search &&  @author_entity:(Ernest Hemingway)",
+      "dialog_node": "node_9_1751889724345",
+      "previous_sibling": "node_9_1751889720866"
+    },
+    {
+      "type": "standard",
+      "title": "😢 Sad",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm here for you. Maybe a comforting story or an emotional read that understands how you feel could help.😢 \n\nBooks:\n\nThe Fault in Our Stars – John Green\n\nTuesdays with Morrie – Mitch Albom\n\nIt’s Kind of a Funny Story – Ned Vizzini\n\nThe Perks of Being a Wallflower – Stephen Chbosky\n\nBefore We Were Strangers – Renée Carlino\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:sad && #Mood",
+      "dialog_node": "node_9_1751967889959",
+      "previous_sibling": "node_7_1751967685874"
+    },
+    {
+      "type": "standard",
+      "title": "😕 Confused",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Not sure what you’re feeling? Let’s try a story that helps make sense of it all.😕\n\nBooks:\n\nKafka on the Shore – Haruki Murakami\n\nThe Midnight Library – Matt Haig\n\nEverything I Never Told You – Celeste Ng\n\nLife of Pi – Yann Martel\n\nEleanor Oliphant Is Completely Fine – Gail Honeyman"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity:confused && #Mood",
+      "dialog_node": "node_9_1751968163104",
+      "previous_sibling": "node_8_1751968159544"
+    },
+    {
+      "type": "standard",
+      "title": "Reading Level",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📖 What’s your reading comfort level? Are you a beginner, prefer quick reads, or up for a challenge?\nLet me know your level, and I’ll suggest the right books."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@readinglevel_entity || #Reading_Level",
+      "dialog_node": "node_9_1751970234947",
+      "previous_sibling": "node_3_1751970910896"
+    },
+    {
+      "type": "standard",
+      "title": "Anything Works / Not Picky",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "✨ Great! Try The Alchemist by Paulo Coelho — a timeless and inspiring read for every kind of reader."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751970910896",
+      "conditions": "@need_help_deciding_entity:(anything works) ||  @need_help_deciding_entity:(not picky) || #Need_help_deciding",
+      "dialog_node": "node_9_1751971153940",
+      "previous_sibling": "node_7_1751971151998"
+    },
+    {
+      "type": "standard",
+      "title": " First-Time Reader",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🌱 Welcome to the world of books! Start with something light like The Curious Incident of the Dog in the Night-Time or The Alchemist."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751970910896",
+      "conditions": "@need_help_deciding_entity:(first time reader) || #Need_help_deciding",
+      "dialog_node": "node_9_1751971163438",
+      "previous_sibling": "node_4_1751971160593"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "😊 Let’s match a book to your mood! Are you feeling curious, nostalgic, hopeful, or something else?Pick a mood, and I’ll find you a great read!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "@mood_entity",
+      "dialog_node": "response_10_1751974838096",
+      "previous_sibling": "slot_10_1751974841993"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "✍️ You’ve got great taste in authors! Let me show you some top books by them."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "#Author_Search",
+      "dialog_node": "response_10_1751974888588",
+      "previous_sibling": "response_3_1751974589876"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📚 Genre time! Tell me which genre you’re interested in — like fantasy, thriller, or romance — and I’ll recommend something perfect for you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "#Genre",
+      "dialog_node": "response_2_1751974935280",
+      "previous_sibling": "response_3_1751974912152"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "✍️ You’ve got great taste in authors! Let me show you some top books by them."
+              },
+              {
+                "text": "📖 Looking for titles by your favorite author? I've got just the list for you!"
+              },
+              {
+                "text": "🧠 I recognize that name — here are some must-reads by that author. Let’s dive in!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1751888236346",
+      "conditions": "@author_entity",
+      "dialog_node": "response_3_1751974589876",
+      "previous_sibling": "slot_3_1751974590320"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📚 Genre time! Tell me which genre you’re interested in — like fantasy, thriller, or romance — and I’ll recommend something perfect for you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1751881865386",
+      "conditions": "@genre_entity",
+      "dialog_node": "response_3_1751974912152",
+      "previous_sibling": "slot_3_1751974912558"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "😊 Let’s match a book to your mood! Are you feeling curious, nostalgic, hopeful, or something else?Pick a mood, and I’ll find you a great read!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1751967624086",
+      "conditions": "#Mood",
+      "dialog_node": "response_6_1751974872171",
+      "previous_sibling": "response_10_1751974838096"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1751967624086",
+      "variable": "$mood_entity",
+      "dialog_node": "slot_10_1751974841993"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1751888236346",
+      "variable": "$author_entity",
+      "dialog_node": "slot_3_1751974590320"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1751881865386",
+      "variable": "$genre_entity",
+      "dialog_node": "slot_3_1751974912558"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "language": "en",
+  "description": "A professional and clear name that combines \"Book\", \"Guide\" and \"AI\".",
+  "name": "BookGuide_AI"
+}
