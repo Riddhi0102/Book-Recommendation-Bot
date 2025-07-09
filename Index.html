@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Recommendation Bot</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Optional: Some basic styling to make the page look nice */
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f2f5;
+      color: #1c1e21;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #606770;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Book Recommendation AI</h1>
+    <p>This is my chatbot project, built with IBM Watson Assistant. Click the chat icon in the bottom-right corner to start a conversation!</p>
+  </div>
+
+  <!-- IBM Watson Assistant Embed Script Starts Here (Updated) -->
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "b0e72224-526b-4d64-b028-8ff4d3f385db", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "4b1df048-4f07-4176-864c-68ad38bbdcf7", // The ID of your service instance.
+      onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+  <!-- IBM Watson Assistant Embed Script Ends Here -->
+
+</body>
+</html>
