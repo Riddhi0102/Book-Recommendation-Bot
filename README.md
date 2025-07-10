@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project is developed as part of the **IBM P-Tech PBEL Virtual Internship**.  
+This project is developed as part of the **IBM PBEL Virtual Internship**.  
 The chatbot provides book recommendations based on the user’s genre preferences, mood, favorite authors, and reading level. It uses IBM Watson Assistant to simulate natural conversations and deliver personalized book suggestions.
 
 ## Objectives
