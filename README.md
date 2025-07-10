@@ -1,70 +1,81 @@
-# 📚 Book Recommendation Chatbot
 
-A smart and interactive book recommendation assistant built using **IBM Watson Assistant**.  
-This chatbot suggests books based on user preferences like **genre**, **mood**, **author**, and **reading level**.
+# Book Recommendation Chatbot using IBM Watson Assistant
 
----
+## Overview
 
-## 💡 Features
+This project is developed as part of the **IBM P-Tech PBEL Virtual Internship**.  
+The chatbot provides book recommendations based on the user’s genre preferences, mood, favorite authors, and reading level. It uses IBM Watson Assistant to simulate natural conversations and deliver personalized book suggestions.
 
-- 🎭 **Genre-based recommendations** (e.g., fantasy, thriller, romance)
-- 😊 **Mood-based suggestions** (happy, sad, curious, etc.)
-- ✍️ **Author-specific book lists** (e.g., J.K. Rowling, Agatha Christie)
-- 📖 **Reading level customization** (beginner, teen, adult, expert)
-- 🧠 **Smart fallback and help suggestions**
-- 🗃️ **Slot filling** to collect user info in any order
-- 💬 Multiple intents and entities for a rich conversational experience
+## Objectives
 
----
+- Build a conversational chatbot using IBM Watson Assistant
+- Understand user input using NLP to recommend relevant books
+- Capture key details such as genre, mood, or author using slots and entities
+- Provide fallback responses and guide users who are unsure
 
-## 🛠️ Built With
+## Tools & Technologies
 
-- IBM Watson Assistant (Dialog + Intents + Entities)
-- CSV entity uploads
-- Slot-based dialog logic
-- Conditional responses
+- IBM Watson Assistant – For intent detection, entity recognition, and dialog flow
+- IBM Cloud – Platform hosting the assistant
+- CSV Files – Used to upload entity values in bulk
+- JSON Files – Used for skill export and import
+- GitHub – For version control and final submission
 
----
+## IBM Watson Concepts Used
 
-## 📂 Project Files
+- **Intents**: Represent what the user is trying to do  
+  Example: Asking for a book, greeting the bot, or saying goodbye.
 
-| File Name             | Description                                  |
-|----------------------|----------------------------------------------|
-| `skill_export.json`  | Complete export of the Watson Assistant Skill |
-| `genre_entity.csv`   | Entity file for genres                       |
-| `mood_entity.csv`    | Entity file for moods                        |
-| `readinglevel.csv`   | Reading level entity                         |
-| `README.md`          | This file                                    |
+- **Entities**: Keywords that provide specific details  
+  Example: Genre (fantasy), Mood (happy), Author (Dan Brown)
 
----
+- **Dialog Nodes**: Predefined paths based on intents/entities that decide how the bot should respond
 
-## 📌 How to Use
+- **Slots**: Automatically gather missing pieces of information (like asking for genre if not mentioned)
 
-1. Open your [IBM Watson Assistant](https://cloud.ibm.com/assistant)
-2. Create a new assistant
-3. Import `skill_export.json` into a new **Dialog Skill**
-4. Test the chatbot using the **"Try It"** window
-5. Edit intents/entities or add new ones as needed
+## Intents
 
----
+| Intent Name        | Purpose                                      |
+|--------------------|----------------------------------------------|
+| `#Greeting`        | Recognize and reply to greetings             |
+| `#Goodbye`         | Exit conversation politely                   |
+| `#Genre_Search`    | Book request based on genre                  |
+| `#Mood_Based`      | Book suggestions based on mood               |
+| `#Author_Search`   | Books by specific author                     |
+| `#ReadingLevel`    | Recommendations for teens, beginners, etc.   |
+| `#Need_Help`       | User doesn't know what they want             |
+| `#Fallback`        | Default response for unrecognized input      |
 
-## 🚀 Example Queries
+## Entities
 
-- "Recommend me a fantasy book"
-- "I'm feeling sad, suggest something light"
-- "I love Agatha Christie, any book by her?"
-- "Suggest a beginner-friendly mystery"
+| Entity Name        | Example Values                                  |
+|--------------------|-------------------------------------------------|
+| `@genre_entity`    | fantasy, romance, thriller, sci-fi, horror      |
+| `@mood_entity`     | happy, sad, stressed, bored                     |
+| `@author_entity`   | J.K. Rowling, Agatha Christie, Dan Brown        |
+| `@readinglevel`    | beginner, teen, adult, expert                   |
 
----
+## Inputs and Expected Outputs
 
-## 🙋‍♀️ Created By
+| User Input                                 | Bot Response                                                |
+|--------------------------------------------|-------------------------------------------------------------|
+| "Suggest a fantasy book"                   | "Try *Mistborn* by Brandon Sanderson."                      |
+| "I'm feeling anxious"                      | "You might like *The Midnight Library* by Matt Haig."       |
+| "Books by Dan Brown"                       | "*Inferno* and *The Da Vinci Code* are great picks."        |
+| "I'm a teen, what should I read?"          | "*Percy Jackson* is a great read for teenagers."            |
 
-**Riddhi** – for an academic and portfolio project  
-✉️ *Built with care and creativity*
+## Files Included
 
----
+- `skill_export.json` – Main chatbot logic from IBM Watson Assistant
+- `genre_entity.csv`, `mood_entity.csv` – Entity value uploads
+- `BookBot_Explanation.ipynb` – Jupyter notebook explaining the flow and logic
 
-## ⭐️ Show some love
+## Future Enhancements
 
-If you liked this chatbot, feel free to ⭐️ star the repo!
+- Add book review APIs (like Goodreads or Google Books)
+- Filter by publication year, language, or popularity
+- Deploy chatbot on a website or mobile app interface
 
+## Made By
+
+[GitHub Profile – Riddhi](https://github.com/riddhi1909)
